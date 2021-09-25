@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Photo Gallery</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <center>
+        <ul class="menu">
+            <li class="links"><a href="#home">HOME</a></li>
+            <li class="links"><a href="#grids">Grid</a></li>
+            <li class="links"><a href="#slides">Slide</a></li>
+
+        </ul>
+    </center>
+    <section class="welcome">
+        <img src="7b6c27a752539489045f769607488bf5.gif">
+    </section>
+    <section class="grids" id="grids">
+        <p>Grid</p>
+        <div class="line"></div>
+        <span class="car">
+            <img src="download-1.jpg">
+            <img src="download-3.jpg">
+            <img src="download-2.jpg">
+            <img src="download-4.jpg">
+            <img src="download-5.jpg">
+            <img src="download.jpg">
+            <img src="images-1.jpg">
+            <img src="images.jpg">
+
+
+        </span>
+    </section>
+    <div id="slides"></div>
+    <p>Slide</p>
+    <div class="line"></div>
+    <div id="carousel1" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <center>
+                    <img src="download-5.jpg" class="img-responsive">
+                    <div class="carousel-content">
+                        <p>Banquets</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img src="download-1.jpg" class="img-responsive">
+                    <div class="carousel-content">
+                        <p>Banquets</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img src="download-2.jpg" class="img-responsive">
+                    <div class="carousel-content">
+                        <p>Banquets</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img src="download-3.jpg" class="img-responsive">
+                    <div class="carousel-content">
+                        <p>Banquets</p>
+                    </div>
+                </center>
+                <div class="item">
+                    <img src="download-4.jpg" class="img-responsive">
+                    <div class="carousel-content">
+                        <p>Banquets</p>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel1" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel1" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
